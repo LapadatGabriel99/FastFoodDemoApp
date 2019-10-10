@@ -1,0 +1,12 @@
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\bin\Debug\FastFoodAppDemo.exe.config
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\bin\Debug\FastFoodAppDemo.exe
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\bin\Debug\FastFoodAppDemo.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodAppDemo.Form1.resources
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodAppDemo.Properties.Resources.resources
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodApp.csproj.GenerateResource.Cache
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodAppDemo.exe
+C:\Users\Gabriel\Documents\Visual Studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodAppDemo.pdb
+C:\Users\Gabriel\documents\visual studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodAppDemo.FirstCustomControl.resources
+C:\Users\Gabriel\documents\visual studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodAppDemo.SecondCustomControl.resources
+C:\Users\Gabriel\documents\visual studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodAppDemo.Basket.resources
+C:\Users\Gabriel\documents\visual studio 2015\Projects\FastFoodAppDemo\FastFoodAppDemo\obj\Debug\FastFoodApp.csprojResolveAssemblyReference.cache

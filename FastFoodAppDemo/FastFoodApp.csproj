@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AB3751A-71DD-4A91-8C5C-9752435AAD3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FastFoodAppDemo</RootNamespace>
+    <AssemblyName>FastFoodAppDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addresses.cs" />
+    <Compile Include="Basket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Basket.Designer.cs">
+      <DependentUpon>Basket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePages.cs" />
+    <Compile Include="FirstCustomControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstCustomControl.Designer.cs">
+      <DependentUpon>FirstCustomControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodInfoStringAddress.cs" />
+    <Compile Include="LisfOf.cs" />
+    <Compile Include="ListOfAddresses.cs" />
+    <Compile Include="ListOfButtons.cs" />
+    <Compile Include="ListOfControls.cs" />
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovingScrollBar.cs" />
+    <Compile Include="OrderOperations.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondCustomControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SecondCustomControl.Designer.cs">
+      <DependentUpon>SecondCustomControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingInfo.cs" />
+    <Compile Include="ShoppingItem.cs" />
+    <Compile Include="StringAddress.cs" />
+    <Compile Include="VisualizeFoodInfo.cs" />
+    <Compile Include="VisualizeFoodInfoThroughWebPage.cs" />
+    <Compile Include="VisualizeWebPage.cs" />
+    <Compile Include="VisualizeWebPageThroughLink.cs" />
+    <EmbeddedResource Include="Basket.resx">
+      <DependentUpon>Basket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstCustomControl.resx">
+      <DependentUpon>FirstCustomControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SecondCustomControl.resx">
+      <DependentUpon>SecondCustomControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30cm-Round-Plastic-Cake-Decorator-Table-Turntable-Household-Lightweight-Can-Manually-Rotate-Cream-Table-Pastry-Baking-Tools-ajq0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58824b33e81acb96424ffab9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banknotes-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CaramelVanillaSwirl__10038.1545096387.1280.1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheeseburger-PNG-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHICKEN-MEXICAN-BURGER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystal-bar-and-club-artisan-burger-sydney-cbd-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-3-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-windows-client-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-2-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-bag %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-bag %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-2-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\professional-pizza-photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-3-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\truck-2-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turn-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\videoblocks-dessert-with-mint-leaf-rotating-plate-with-lava-cake-sweet-baked-product_h27nquz3jg_thumbnail-full01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows-client-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-3-16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant-24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
